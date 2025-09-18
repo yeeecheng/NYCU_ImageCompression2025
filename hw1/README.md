@@ -1,5 +1,10 @@
 ## Homework 1 – Color Transform
 
+| Student ID | Name |
+|-----------|-----------|
+| 313553014 | Yi-Cheng Liao |
+
+
 ### Introduction
 
 Digital images are usually represented in the **RGB (Red, Green, Blue)** color space, which is suitable for display devices but not always ideal for processing tasks such as compression and enhancement. RGB mixes brightness and color information, making it less efficient for certain operations.
