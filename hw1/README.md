@@ -28,60 +28,18 @@ python main.py
 
 ### Results
 
-<div style="display: flex; flex-direction: column; gap: 20px;">
+| R Channel | G Channel | B Channel |
+|-----------|-----------|-----------|
+| <img src="./res/R_channel.png" width="150"> | <img src="./res/G_channel.png" width="150"> | <img src="./res/B_channel.png" width="150"> |
 
-<!-- 第一列：RGB -->
+| Y Channel | U Channel | V Channel |
+|-----------|-----------|-----------|
+| <img src="./res/Y_channel.png" width="150"> | <img src="./res/U_channel.png" width="150"> | <img src="./res/V_channel.png" width="150"> |
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-    <div style="text-align: center;">
-      <p>R Channel</p>
-      <img src="./res/R_channel.png" width="150">
-    </div>
-    <div style="text-align: center;">
-      <p>G Channel</p>
-      <img src="./res/G_channel.png" width="150">
-    </div>
-    <div style="text-align: center;">
-      <p>B Channel</p>
-      <img src="./res/B_channel.png" width="150">
-    </div>
-  </div>
+| Cb Channel | Cr Channel |
+|------------|------------|
+| <img src="./res/Cb_channel.png" width="150"> | <img src="./res/Cr_channel.png" width="150"> |
 
-<!-- 第二列：YUV -->
-
-<div style="display: flex; justify-content: center; gap: 20px;">
-    <div style="text-align: center;">
-      <p>Y Channel</p>
-      <img src="./res/Y_channel.png" width="150">
-    </div>
-    <div style="text-align: center;">
-      <p>U Channel</p>
-      <img src="./res/U_channel.png" width="150">
-    </div>
-    <div style="text-align: center;">
-      <p>V Channel</p>
-      <img src="./res/V_channel.png" width="150">
-    </div>
-  </div>
-
-<!-- 第三列：YCbCr -->
-
-<div style="display: flex; justify-content: center; gap: 20px;">
-    <div style="text-align: center;">
-      <p>Cb Channel</p>
-      <img src="./res/Cb_channel.png" width="150">
-    </div>
-    <div style="text-align: center;">
-      <p>Cr Channel</p>
-      <img src="./res/Cr_channel.png" width="150">
-    </div>
-    <div style="text-align: center;">
-      <p style="visibility:hidden;">Empty</p>
-      <img src="./res/Cr_channel.png" width="150" style="visibility:hidden;">
-    </div>
-  </div>
-
-</div>
 
 ### Disccusion
 
@@ -90,74 +48,15 @@ The goal is to observe how the **U** and **V** chrominance channels behave under
 
 Below are the visual results of the three methods for the **U**, **V**, and **Y** channels:
 
-<div align="center">
+| **Slide + Offset** | **Slide (No Offset)** | **Homework Formula** |
+|--------------------|-----------------------|----------------------|
+| <img src="./additional_res/slide_function_with_offset/U_channel.png" width="150"> | <img src="./additional_res/slide_function/U_channel.png" width="150"> | <img src="./additional_res/homework_requirement/U_channel.png" width="150"> |
+| **U Channel** | **U Channel** | **U Channel** |
+| <img src="./additional_res/slide_function_with_offset/V_channel.png" width="150"> | <img src="./additional_res/slide_function/V_channel.png" width="150"> | <img src="./additional_res/homework_requirement/V_channel.png" width="150"> |
+| **V Channel** | **V Channel** | **V Channel** |
+| <img src="./additional_res/slide_function_with_offset/Y_channel.png" width="150"> | <img src="./additional_res/slide_function/Y_channel.png" width="150"> | <img src="./additional_res/homework_requirement/Y_channel.png" width="150"> |
+| **Y Channel** | **Y Channel** | **Y Channel** |
 
-<!-- 標題列 -->
-
-<div style="display: flex; justify-content: center; gap: 50px; font-weight: bold; font-size: 16px;">
-  <div>Slide + Offset</div>
-  <div>Slide (No Offset)</div>
-  <div>Homework Formula</div>
-</div>
-
-<br>
-
-<!-- 第一排：U Channel -->
-
-<div style="display: flex; justify-content: center; gap: 30px;">
-  <div>
-    <img src="./additional_res/slide_function_with_offset/U_channel.png" width="150"><br>
-    <p>U Channel</p>
-  </div>
-  <div>
-    <img src="./additional_res/slide_function/U_channel.png" width="150"><br>
-    <p>U Channel</p>
-  </div>
-  <div>
-    <img src="./additional_res/homework_requirement/U_channel.png" width="150"><br>
-    <p>U Channel</p>
-  </div>
-</div>
-
-<br>
-
-<!-- 第二排：V Channel -->
-
-<div style="display: flex; justify-content: center; gap: 30px;">
-  <div>
-    <img src="./additional_res/slide_function_with_offset/V_channel.png" width="150"><br>
-    <p>V Channel</p>
-  </div>
-  <div>
-    <img src="./additional_res/slide_function/V_channel.png" width="150"><br>
-    <p>V Channel</p>
-  </div>
-  <div>
-    <img src="./additional_res/homework_requirement/V_channel.png" width="150"><br>
-    <p>V Channel</p>
-  </div>
-</div>
-
-<br>
-
-<!-- 第三排：Y Channel -->
-
-<div style="display: flex; justify-content: center; gap: 30px;">
-  <div>
-    <img src="./additional_res/slide_function_with_offset/Y_channel.png" width="150"><br>
-    <p>Y Channel</p>
-  </div>
-  <div>
-    <img src="./additional_res/slide_function/Y_channel.png" width="150"><br>
-    <p>Y Channel</p>
-  </div>
-  <div>
-    <img src="./additional_res/homework_requirement/Y_channel.png" width="150"><br>
-    <p>Y Channel</p>
-  </div>
-</div>
-
-</div>
 
 The three methods show clear differences in the U and V channels while the Y channel remains the same across all approaches.
 
